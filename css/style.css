@@ -15,14 +15,20 @@ body{
 .container{
     background-color: #fff;
     width: 500px;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.content{
+    padding: 50px;
+}
 
-.title{
+.title {
     text-align: center;
-    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background: #212626f2;
+    border-radius: 10px 10px 0px 0px;
+    color: #ffffff;
 }
 
 #task_form{
@@ -54,10 +60,16 @@ input{
 
 #tasks{
     margin-top: 20px;
+    overflow-y: scroll;
+    margin: 10px 0px;
+    height: 110px;
+    background: #000000e8;
+    color: #fff;
+    border-radius: 5px;
 }
 
 ol{
-    padding: 0px 20px; 
+    padding: 0px 30px; 
     margin-bottom: 10px;
 }
 #tasks li{

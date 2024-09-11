@@ -9,18 +9,24 @@
 </head>
 <body>
     <div class="container">
-        <h4 class="title">Task List</h4>
-        <form id="task_form"> 
-            <input type="text" id="new_task" placeholder="New Task ">
-            <input type="submit" value="Add Task">
-        </form>
-        <hr class="middleline">
-        <h4>Tasks</h4>
-        <br>
-        <input type="text" id="task_filter" placeholder="Filter Task">
-        <ol id="tasks">
-        </ol>
-        <button id ="Clear_task_btn">Clear Tasks</button>  
+        <div class="title">
+            <h4 >Task List</h4>
+        </div>
+        <div class="content">
+            <form id="task_form"> 
+                <input type="text" id="new_task" placeholder="New Task ">
+                <input type="submit" value="Add Task">
+            </form>
+            <hr class="middleline">
+            <h4>Tasks</h4>
+            <br>
+            <input type="text" id="task_filter" placeholder="Filter Task">
+            <div id="tasks">
+            <ol>
+            </ol>
+            </div>
+            <button id ="Clear_task_btn">Clear Tasks</button> 
+        </div> 
     </div>
     <script src="js/script.js"></script>
 </body>
