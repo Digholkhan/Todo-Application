@@ -69,16 +69,16 @@ input{
     color: #fff;
     border-radius: 5px;
 }
-#tasks::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
 }
-#tasks::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #000000e8; 
 }
-#tasks::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #888; 
 }
-#tasks::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #dddbdb; 
 }
 
