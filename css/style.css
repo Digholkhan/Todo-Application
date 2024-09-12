@@ -61,12 +61,28 @@ input{
 #tasks{
     margin-top: 20px;
     overflow-y: scroll;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
     margin: 10px 0px;
     height: 110px;
     background: #000000e8;
     color: #fff;
     border-radius: 5px;
 }
+#tasks::-webkit-scrollbar {
+    width: 5px;
+}
+#tasks::-webkit-scrollbar-track {
+    background: #000000e8; 
+}
+#tasks::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+#tasks::-webkit-scrollbar-thumb:hover {
+    background: #dddbdb; 
+}
+
+
 
 ol{
     padding: 0px 30px; 
